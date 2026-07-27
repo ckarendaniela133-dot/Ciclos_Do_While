@@ -1,0 +1,12 @@
+public class Ejercicio_3 {
+    public static void main(String[] args){
+        int i = 1;
+        int suma = 0;
+
+        do{
+            suma = suma + i;
+            i++;
+        }while (i <= 5);
+        System.out.println("la suma es:" + suma);
+    }
+}
